@@ -76,7 +76,7 @@ class LocalTestCase(test.CdistTestCase):
 
     def test_cache_path(self):
         self.assertEqual(self.local.cache_path,
-                         os.path.join(self.home_dir, "cache"))
+                         os.path.join(self.home_dir, "cachaaaaae"))
 
     def test_conf_path(self):
         self.assertEqual(self.local.conf_path,
